@@ -1,0 +1,10 @@
+package: github.com/pirogoeth/gm
+import:
+- package: github.com/stripe/stripe-go
+  version: ^19.11.0
+- package: gopkg.in/urfave/cli.v1
+  version: ^1.19.1
+- package: github.com/davecgh/go-spew
+  version: ^1.1.0
+  subpackages:
+  - spew
